@@ -3,11 +3,12 @@
 # Follow along
 - mrf.github.io/just-enough-devops
 
-# Me
+# About Me
 - Director of Engineering at Chapter Three
 
 
 # A Brief History of Devops
+
 ## 1963
 - First "virtual machine" at MIT
 
@@ -98,7 +99,6 @@
 
 ## 2018
 - The year of the Linux desktop
-
 
 # Citations
 - Wikipedia
