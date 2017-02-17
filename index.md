@@ -138,8 +138,10 @@
 - Unit Tests
 - Behavioral Tests
 - Visual Regressions
+
 ## "Building" your site
 - Composer
+
 ## "Building" your frontend
 - Locally vs Through CI
 
