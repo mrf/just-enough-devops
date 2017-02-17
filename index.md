@@ -53,6 +53,7 @@
 
 ## 2000
 - Subversion initial release
+- REST pattern defined
 
 ## 2001
 - Drupal initial release
@@ -113,7 +114,7 @@
 - The year of the Linux desktop
 
 # The Framework
-## "Any piece that fails to justify its value to the end product gets cut."
+## "Any step that provides no value to the end product gets cut."
 
 # Why Are We Here
 ## Guaranteed current spending to avoid hypothetical future spending
