@@ -7,7 +7,7 @@ all: reveal.js/index.html index.html
 # --incremental makes lists into revealjs fragments
 index.html: index.md
 	pandoc -t revealjs --template=templates/default.revealjs \
-	--standalone --section-divs --variable theme="league" \
+	--standalone --section-divs --variable theme="simple" \
 	--variable transition="convex" --incremental \
 	--no-highlight --variable hlss=zenburn \
         --css=css/custom.css \
