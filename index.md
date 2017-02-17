@@ -48,11 +48,15 @@
 ## 1997
 - Dreamweaver initial release
 
+## 1999
+- "Extreme Programming Explained" published
+
 ## 2000
 - Subversion initial release
 
 ## 2001
 - Drupal initial release
+- Agile manifesto published
 
 ## 2004
 - Hudson initial release
