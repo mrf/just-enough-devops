@@ -54,6 +54,7 @@
 
 ## 2005
 - Git initial release
+- Puppet initial release
 - Resurgence of virtual machine technology
 
 ## 2006
@@ -71,6 +72,8 @@
 
 ## 2009
 - Oracle swallows up Sun and kills Hudson
+- Nodejs initial release
+- Chef initial release
 - Term `devops` is coined on Twitter #devopsdays
 
 ## 2010
@@ -78,21 +81,22 @@
 
 ## 2011
 - Hudson officially becomes Jenkins and two projects go separate ways
-- Nodejs initial release
+- SaltStack initial release
 - Travis CI founded
 - Circle CI founded
 
 ## 2012
 - Grunt released
+- Ansible released
 - Yours truly gets saddled with his first prod server
 
-# 2013
+## 2013
 - Docker released
 
-# 2014
+## 2014
 - Kubernetes released
 
-#2018
+## 2018
 - The year of the Linux desktop
 
 
