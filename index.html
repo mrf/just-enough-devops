@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css"/>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
+    <!-- For syntax highlighting using highlight.js-->
+    <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+  <link rel="stylesheet" href="css/custom.css"/>
+  <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+  <script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = 'reveal.js/css/print/pdf.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="just-enough-devops" class="slide level1">
+<h1>Just Enough Devops</h1>
+</section>
+<section id="follow-along" class="slide level1">
+<h1>Follow along</h1>
+<ul>
+<li class="fragment">mrf.github.io/just-enough-devops</li>
+</ul>
+</section>
+<section id="about-me" class="slide level1">
+<h1>About Me</h1>
+<ul>
+<li class="fragment">Director of Engineering at Chapter Three</li>
+</ul>
+</section>
+<section id="what-is-devops" class="slide level1">
+<h1>What is Devops?</h1>
+<section id="a-developer-with-sysadmin-tendencies-that-loves-to-write-code-for-servers" class="level2">
+<h2>&quot;A developer with sysadmin tendencies that loves to write code for servers&quot;</h2>
+</section>
+<section id="the-process-of-getting-your-code-from-your-local-computer-to-a-server" class="level2">
+<h2>&quot;The process of getting your code from your local computer to a server&quot;</h2>
+</section>
+<section id="an-ethereal-concept-designed-to-prevent-developers-and-sysadmins-from-throwing-tickets-back-and-forth-at-each-other-eternally" class="level2">
+<h2>&quot;An ethereal concept designed to prevent developers and sysadmins from throwing tickets back and forth at each other eternally&quot;</h2>
+</section>
+</section>
+<section id="a-brief-history-of-devops" class="slide level1">
+<h1>A Brief History of Devops</h1>
+</section>
+<section id="section" class="slide level1">
+<h1></h1>
+<section id="section-1" class="level2">
+<h2>1963</h2>
+<ul>
+<li class="fragment">First &quot;virtual machine&quot; at MIT</li>
+</ul>
+</section>
+<section id="section-2" class="level2">
+<h2>1990</h2>
+<ul>
+<li class="fragment">CVS initial release</li>
+</ul>
+</section>
+<section id="section-3" class="level2">
+<h2>1991</h2>
+<ul>
+<li class="fragment">Continuous Integration proposed</li>
+<li class="fragment">Linux initial release</li>
+</ul>
+</section>
+<section id="section-4" class="level2">
+<h2>1993</h2>
+<ul>
+<li class="fragment">NCSA HTTPd initial release</li>
+<li class="fragment">HTML initial release</li>
+<li class="fragment">Red Hat founded</li>
+<li class="fragment">Debian initial release</li>
+</ul>
+</section>
+<section id="section-5" class="level2">
+<h2>1994</h2>
+<ul>
+<li class="fragment">Yours truly publishes his first website</li>
+</ul>
+</section>
+<section id="section-6" class="level2">
+<h2>1995</h2>
+<ul>
+<li class="fragment">Apache initial release</li>
+<li class="fragment">MySQL initial release</li>
+<li class="fragment">PHP initial release</li>
+<li class="fragment">Java initial release</li>
+<li class="fragment">Javascript initial release</li>
+<li class="fragment">Netscape Navigator 2.0 adds FTP support</li>
+</ul>
+</section>
+<section id="section-7" class="level2">
+<h2>1996</h2>
+<ul>
+<li class="fragment">CSS initial release</li>
+</ul>
+</section>
+<section id="section-8" class="level2">
+<h2>1997</h2>
+<ul>
+<li class="fragment">Dreamweaver initial release</li>
+</ul>
+</section>
+<section id="section-9" class="level2">
+<h2>1999</h2>
+<ul>
+<li class="fragment">&quot;Extreme Programming Explained&quot; published</li>
+</ul>
+</section>
+<section id="section-10" class="level2">
+<h2>2000</h2>
+<ul>
+<li class="fragment">Subversion initial release</li>
+<li class="fragment">REST pattern defined</li>
+</ul>
+</section>
+<section id="section-11" class="level2">
+<h2>2001</h2>
+<ul>
+<li class="fragment">Drupal initial release</li>
+<li class="fragment">Agile manifesto published</li>
+</ul>
+</section>
+<section id="section-12" class="level2">
+<h2>2004</h2>
+<ul>
+<li class="fragment">Hudson initial release</li>
+<li class="fragment">Maven initial release</li>
+<li class="fragment">Ubuntu initial release</li>
+</ul>
+</section>
+<section id="section-13" class="level2">
+<h2>2005</h2>
+<ul>
+<li class="fragment">Git initial release</li>
+<li class="fragment">Puppet initial release</li>
+<li class="fragment">Resurgence of virtual machine technology</li>
+</ul>
+</section>
+<section id="section-14" class="level2">
+<h2>2006</h2>
+<ul>
+<li class="fragment">Sass initial release</li>
+<li class="fragment">AWS launch</li>
+<li class="fragment">Yours truly writes his first bash script</li>
+</ul>
+</section>
+<section id="section-15" class="level2">
+<h2>2007</h2>
+<ul>
+<li class="fragment">Acquia founded</li>
+<li class="fragment">Yours truly gets saddled with his first dev server</li>
+</ul>
+</section>
+<section id="section-16" class="level2">
+<h2>2008</h2>
+<ul>
+<li class="fragment">GitHub founded</li>
+<li class="fragment">LXC Containers initial release</li>
+</ul>
+</section>
+<section id="section-17" class="level2">
+<h2>2009</h2>
+<ul>
+<li class="fragment">Oracle swallows up Sun and kills Hudson</li>
+<li class="fragment">Nodejs initial release</li>
+<li class="fragment">Chef initial release</li>
+<li class="fragment">Term <code>devops</code> is coined on Twitter #devopsdays</li>
+</ul>
+</section>
+<section id="section-18" class="level2">
+<h2>2010</h2>
+<ul>
+<li class="fragment">Pantheon founded</li>
+<li class="fragment">Continuous Delivery popularized</li>
+</ul>
+</section>
+<section id="section-19" class="level2">
+<h2>2011</h2>
+<ul>
+<li class="fragment">Hudson officially becomes Jenkins and two projects go separate ways</li>
+<li class="fragment">SaltStack initial release</li>
+<li class="fragment">Travis CI founded</li>
+<li class="fragment">Circle CI founded</li>
+</ul>
+</section>
+<section id="section-20" class="level2">
+<h2>2012</h2>
+<ul>
+<li class="fragment">Grunt initial release</li>
+<li class="fragment">Ansible initial release</li>
+<li class="fragment">Composer initial release</li>
+<li class="fragment">Yours truly gets saddled with his first prod server</li>
+</ul>
+</section>
+<section id="section-21" class="level2">
+<h2>2013</h2>
+<ul>
+<li class="fragment">Docker initial release</li>
+</ul>
+</section>
+<section id="section-22" class="level2">
+<h2>2014</h2>
+<ul>
+<li class="fragment">Kubernetes initial release</li>
+</ul>
+</section>
+<section id="section-23" class="level2">
+<h2>2018</h2>
+<ul>
+<li class="fragment">The year of the Linux desktop</li>
+</ul>
+</section>
+</section>
+<section id="the-framework" class="slide level1">
+<h1>The Framework</h1>
+<section id="any-step-that-provides-no-value-to-the-end-product-gets-cut." class="level2">
+<h2>&quot;Any step that provides no value to the end product gets cut.&quot;</h2>
+</section>
+</section>
+<section id="why-are-we-here" class="slide level1">
+<h1>Why Are We Here</h1>
+<section id="guaranteed-current-spending-to-avoid-hypothetical-future-spending" class="level2">
+<h2>Guaranteed current spending to avoid hypothetical future spending</h2>
+</section>
+<section id="prioritizing-trends-over-proven-methodology" class="level2">
+<h2>Prioritizing trends over proven methodology</h2>
+</section>
+<section id="focusing-on-process-rather-than-the-people-involved-in-it" class="level2">
+<h2>Focusing on process rather than the people involved in it</h2>
+</section>
+<section id="forcing-developers-to-jump-through-hoops-to-get-work-deployed" class="level2">
+<h2>Forcing developers to jump through hoops to get work deployed</h2>
+</section>
+<section id="decreasing-quality-by-shifting-responsibility-to-machines" class="level2">
+<h2>Decreasing quality by shifting responsibility to machines</h2>
+</section>
+</section>
+<section id="what-stacks-up" class="slide level1">
+<h1>What Stacks Up?</h1>
+</section>
+<section id="ftp" class="slide level1">
+<h1>FTP</h1>
+</section>
+<section id="version-control" class="slide level1">
+<h1>Version Control</h1>
+<section id="basics" class="level2">
+<h2>Basics</h2>
+</section>
+<section id="git-flow" class="level2">
+<h2>Git Flow</h2>
+</section>
+<section id="pull-request-workflow" class="level2">
+<h2>Pull request workflow</h2>
+</section>
+</section>
+<section id="continuous-integration" class="slide level1">
+<h1>Continuous Integration</h1>
+<section id="the-promise-of-less-bugs-and-less-disruptive-bugs" class="level2">
+<h2>The promise of less bugs and less disruptive bugs</h2>
+</section>
+<section id="testing" class="level2">
+<h2>Testing</h2>
+<ul>
+<li class="fragment">Unit Tests</li>
+<li class="fragment">Behavioral Tests</li>
+<li class="fragment">Visual Regressions</li>
+</ul>
+</section>
+<section id="building-your-site" class="level2">
+<h2>&quot;Building&quot; your site</h2>
+<ul>
+<li class="fragment">Composer</li>
+</ul>
+</section>
+<section id="building-your-frontend" class="level2">
+<h2>&quot;Building&quot; your frontend</h2>
+<ul>
+<li class="fragment">Locally vs Through CI</li>
+</ul>
+</section>
+</section>
+<section id="citations" class="slide level1">
+<h1>Citations</h1>
+<ul>
+<li class="fragment">Wikipedia</li>
+<li class="fragment">https://www.safaribooksonline.com/library/view/jenkins-the-definitive/9781449311155/ch01s04.html</li>
+<li class="fragment">http://itrevolution.com/the-history-of-devops/</li>
+<li class="fragment">https://www.codeproject.com/Tips/859451/Benefits-of-Continuous-Integration</li>
+</ul>
+</section>
+    </div>
+  </div>
+
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,         // Display controls in the bottom right corner
+        progress: true,         // Display a presentation progress bar
+        history: true,          // Push each slide change to the browser history
+        center: false,                       // Vertical centering of slides
+        maxScale: 1.5,                  // Bounds for smallest/largest possible content scale
+        slideNumber: false,                // Display the page number of the current slide
+        theme: 'simple', // available themes are in /css/theme
+        transition: 'convex', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+    </body>
+</html>
